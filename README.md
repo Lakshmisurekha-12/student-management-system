@@ -1,52 +1,45 @@
 # Student Management System
 
-A beginner-friendly Student Management System developed using Python.
+## 📌 Project Overview
 
-## About the Project
+The Student Management System is a Python-based application used to manage student information.
 
-This project is a simple command-line application used to manage student information.
+It allows users to add, view, search, update, and delete student records. The system also provides student sorting and basic statistics.
 
-The application allows the user to:
+Student data is stored in a JSON file so that the information can be saved and used again when the program is run.
 
-- Add a student
-- View all students
-- Search for a student
+---
+
+## ✨ Features
+
+- Add new student records
+- View all student records
+- Search students by:
+  - Student ID
+  - Student Name
+  - Course
 - Update student information
-- Delete student information
-- Exit the application
+- Delete student records
+- Sort students by name
+- Display student statistics
+- Validate age, phone number, email, and required fields
+- Store student data using JSON
 
-Student information is stored in a JSON file so that the data can be saved and used again when the program is opened.
+---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - JSON
-- File Handling
+- Visual Studio Code
+- GitHub
 
-## Features
+---
 
-### 1. Add Student
-Add a new student by entering the Student ID, name, age, and course.
-
-### 2. View Students
-Display all stored student information.
-
-### 3. Search Student
-Search for a student using the Student ID.
-
-### 4. Update Student
-Update the details of an existing student.
-
-### 5. Delete Student
-Delete a student using the Student ID.
-
-### 6. Exit
-Exit the Student Management System.
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-student-management-system/
+Student Management System/
 │
 ├── student_management.py
 ├── students.json
